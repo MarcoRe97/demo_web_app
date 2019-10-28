@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script src="/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/homepage.js"></script>
+    <link href="/css/homepage.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="$.keeplogin()">
+    <div class="top-bar">
+        <ul>
+            <li>
+                <a href="/html/loginpages.html" style="text-decoration: none;color: orangered">您还未登录，请登录！</a>
+            </li>
+            <li>
+                <a href="/html/registerpages.html" style="color: darkgray; text-decoration: none">免费注册</a>
+            </li>
+        </ul>
+    </div>
+    <div class="lr-box">
+        <span>
+            <button class="login">登录</button>
+        </span>
+        <span>
+            <button class="register-btn">注册</button>
+        </span>
+    </div>
+
+    <!--登录界面-->
+    <div class="loginbox" >
+        <h1 align="center">用户登录</h1>
+        <FORM class="from_login" action="" Method="post">
+            <BR>输入帐号: <Input type="text" id="account"><br>
+            <BR>输入密码: <Input class="iptpsw" type="password" id="secret">
+            <a class="seepsw" href="javascript:void(0)" onclick="$.seepsw()" hidden="hidden">显示密码</a>
+            <a class="unseepsw" href="javascript:void(0)" onclick="$.unseepsw()" hidden="hidden">隐藏密码</a>
+            <a class="clearall" href="javascript:void(0)" onclick="$.clearall()" hidden="hidden">清空</a>
+            <br>
+            <BR><Input type="button" name="g" value="登录" onclick="$.loginSubmit()"> <span id="info"></span>
+            <br>
+            <a class="back" href="javascript:void(0)" id="returnMain">返回</a></p>
+        </FORM>
+    </div>
+
+<!--注册界面-->
+    <div class="registerbox">
+        <h1 align="center">用户注册</h1>
+        <FORM class="from_login" action="" Method="post">
+            <BR>输入帐号: <Input type="text" id="r_account"><br>
+            <BR>输入密码: <Input class="iptpsw" type="password" id="r_secret"><br>
+            <BR>输入电话: <Input class="iptpsw" type="text" id="r_phone"><br>
+            <BR><Input type="button" name="g" value="注册" onclick="$.registerSubmit()"> <span id="r_info"></span>
+            <br>
+            <a class="back" href="javascript:void(0)" id="returnMain_r">返回</a></p>
+        </FORM>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo_web_app:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo_web_app_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="demo_web_app/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo_web_app" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.47" />
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="mchange-commons-java-0.2.11" />
+          <element id="library" level="project" name="json-lib-2.4-jdk15" />
+          <element id="library" level="project" name="commons-beanutils-1.8.3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

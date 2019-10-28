@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+/* 头部 */
+header{
+    padding-top: 25px;
+}
+.mwidth{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 内容 */
+.content{
+    min-width: 1200px;
+    height: 600px;
+    background-image: url(../img/homepage_bg4.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.loginbox{
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    padding: 35px 25px 25px 25px;
+    width: 300px;
+    height: 290px;
+    background-color:rgba(255,255,255,0.9);
+}
+.username{
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    background-image: url(../img/user.png);
+    background-repeat: no-repeat;
+    text-indent: 50px;
+}
+.password{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    background-image: url(../img/password.png);
+    background-repeat: no-repeat;
+    text-indent: 50px;
+}
+.login{
+    width: 300px;
+    height: 42px;
+    margin-top: 20px;
+    background-color: #ff4400;
+    text-align: center;
+    line-height: 42px;
+    color: white;
+    cursor: pointer;
+}
+.fangshi{
+    margin-top: 25px;
+    font-size: 12px;
+}
+.zhuce{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 12px;
+}
+.zhuce a,.fangshi a{
+    margin: 0 4px;
+}
+.loginbox h3{
+    font-size: 16px;
+}
+.ewm{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.content{
+    height: 600px;
+    position: relative;
+}

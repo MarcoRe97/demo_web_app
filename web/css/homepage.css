@@ -1,0 +1,75 @@
+.login{
+    height: 90px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: orange;
+    font-size: 20px;
+}
+.top-bar{
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    background-color: aliceblue;
+    position: fixed;
+    margin-bottom: 5px;
+}
+.top-bar ul{
+    width: auto;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    padding: 0;
+}
+.top-bar li{
+    float: left;
+    margin-right: 2%;
+    position: relative;
+    overflow: hidden;
+}
+.lr-box{
+    left: 500px;
+    top: 300px;
+    position: relative;
+}
+.loginbox{
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border: 10px solid powderblue;
+    background-color: white;
+    z-index:12;
+}
+.registerbox
+{
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border: 10px solid powderblue;
+    background-color: white;
+    z-index:12;
+}
+.register-btn{
+    height: 90px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: orange;
+    font-size: 20px;
+    color: black;
+}
+.back
+{
+    margin-left: 210px;
+}
+.from_login
+{
+    margin-left: 165px;
+}

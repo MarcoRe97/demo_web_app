@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>/html/homepage.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <!--注册Servlet的名字-->
+        <servlet-name>LoginServlet</servlet-name>
+        <!--只想注册Servlet的类地址-->
+        <servlet-class>com.nit.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.nit.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>KeepLoginServlet</servlet-name>
+        <servlet-class>com.nit.servlet.KeepLoginServlet</servlet-class>
+    </servlet>
+    <!--配置访问路径-->
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <!--访问的路径-->
+        <url-pattern>/servlet/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/servlet/RegisterServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>KeepLoginServlet</servlet-name>
+        <url-pattern>/servlet/KeepLoginServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
