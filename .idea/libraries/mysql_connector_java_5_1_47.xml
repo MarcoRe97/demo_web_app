@@ -2,6 +2,13 @@
   <library name="mysql-connector-java-5.1.47">
     <CLASSES>
       <root url="jar:///Library/Java/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar!/" />
+      <root url="jar:///Library/Java/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar:///Library/Java/commons-collections-3.2.1.jar!/" />
+      <root url="jar:///Library/Java/commons-lang-2.6.jar!/" />
+      <root url="jar:///Library/Java/commons-logging-1.1.1.jar!/" />
+      <root url="jar:///Library/Java/ezmorph-1.0.6.jar!/" />
+      <root url="jar:///Library/Java/json-lib-2.4-jdk15.jar!/" />
+      <root url="jar:///Library/Java/mysql-connector-java-5.0.8-bin.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
